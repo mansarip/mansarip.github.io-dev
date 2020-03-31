@@ -1,14 +1,9 @@
 import Link from "next/link";
 import toc from "../toc.json";
-import Head from "next/head";
 
 export default function Index({ children }) {
   return (
     <>
-      <Head>
-        <title>Man Sarip</title>
-      </Head>
-
       <div className="wrapper">
         <Header />
         <div className="body">
